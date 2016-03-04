@@ -1,0 +1,8 @@
+*.o
+*.a
+*.so
+fs_cli
+
+# swig generated code
+ESL.py
+esl_wrap.cpp
