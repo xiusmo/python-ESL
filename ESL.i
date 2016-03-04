@@ -1,3 +1,4 @@
+%module ESL
 %{
 #include "esl.h"
 #include "esl_oop.h"
