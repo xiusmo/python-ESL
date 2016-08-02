@@ -1,11 +1,11 @@
 # python-ESL
 
-This is FreeSWITCH's ESL library and SWIG, pulled directly out of
-tree. Nothing more, nothing less, no modifications.
+This is FreeSWITCH's [Python ESL SWIG wrapper](https://freeswitch.org/confluence/display/FREESWITCH/Python+ESL)
+pulled directly out of tree on version `1.4.18` with no modifications.
 
-All we've done is replaced the Makefile with setuptools to make it pip
-installable.
+All we've done is replaced the `Makefile` with `setuptools` to make the package
+easy to install with pip:
 
-    pip install git+https://github.com/sangoma/python-ESL
+    pip install python-ESL
 
-Should work for both python2 and python3.
+It should work on both python 2 and 3.
